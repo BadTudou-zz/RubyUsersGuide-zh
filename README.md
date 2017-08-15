@@ -24,7 +24,7 @@
 
 [再读“简单示例”](./markdown/backtoexamples.md "Back to the simple examples")
 
-[流程结构](./markdown/control.md "Control structures")
+[流程控制](./markdown/control.md "Control structures")
 
 [迭代器](./markdown/iterators.md "Iterators")
 
