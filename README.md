@@ -30,7 +30,7 @@
 
 [面向对象的思考](./markdown/oothinking.md "Object-oriented thinking")
 
-[方法](./markdown/markdown/methods.md "Methods")
+[方法](./markdown/methods.md "Methods")
 
 [类](./markdown/classes.md "Classes")
 
