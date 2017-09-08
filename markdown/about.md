@@ -21,12 +21,12 @@ If you come across an out-of-date version, please notify the webmaster where the
 
 Original Japanese version by matz.
 
-最初的日文版由**matz**编写。
+最初的日文版由**<matz@netlab.co.jp>**编写。
 
 First English translation by GOTO Kentaro & Julian Fondren.
 
-第一个英文版由**GOTO Kentaro**与**Julian Fondren**翻译。
+第一个英文版由**[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)**与**[Julian Fondren](mailto:gotoken@notwork.org)**翻译。
 
 Re-translation and added material by Mark Slagell.
 
-**Mark Slagell**重译并补充了材料。
+**[Mark Slagell](mailto:slagell@ruby-lang.org)**重译并补充了材料。

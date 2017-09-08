@@ -1,4 +1,4 @@
-# 版权
+# 版权信息
 
 **Copyright (c) 2005-2014 Mark Slagell**
 

@@ -68,7 +68,7 @@
 
 [关于本指南](./markdown/about.md "About the guide")
 
-[版权](./markdown/copyright.md "Copyright")
+[版权信息](./markdown/copyright.md "Copyright")
 
 **Copyright (c) 2005-2014 Mark Slagell**
 
