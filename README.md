@@ -4,7 +4,7 @@
 
 这是 [Ruby User’s Guide]( http://www.rubyist.net/~slagell/ruby/	"Ruby User’s Guide")的简体中文版本：**Ruby用户指南**。
 
-本文档基于**Goto Kentaro**和**Mark Slagell**的英文版本翻译而来，而该英文版本则是基于**Ruby**的发明者**Yukihiro Matsumoto**编写的日文版本翻译而来。 
+本文档基于[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)和[Julian Fondren](mailto:gotoken@notwork.org)的英文版本翻译而来，而该英文版本则是基于[Ruby](https://www.ruby-lang.org/)的发明者[Yukihiro Matsumoto](mailto:matz@netlab.co.jp)编写的日文版本翻译而来。 
 
 为了减少翻译过程中的错误，我保留了英文版本的内容。因此不要对本文档有任何的抱怨或不满，**Fork**并完善它！
 

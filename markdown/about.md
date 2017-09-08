@@ -25,8 +25,8 @@ Original Japanese version by matz.
 
 First English translation by GOTO Kentaro & Julian Fondren.
 
-第一个英文版由**[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)**与**[Julian Fondren](mailto:gotoken@notwork.org)**翻译。
+第一个英文版由[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)与[Julian Fondren](mailto:gotoken@notwork.org)翻译。
 
 Re-translation and added material by Mark Slagell.
 
-**[Mark Slagell](mailto:slagell@ruby-lang.org)**重译并补充了材料。
+[Mark Slagell](mailto:slagell@ruby-lang.org)重译并补充了材料。
