@@ -194,3 +194,6 @@ For now, don't worry too much about the details of this code. Here is what a run
 (I should have done a bit better, considering the 1/3 probability of success.)
 
 (考虑到1/3的成功概率，我应该可以做得更好一些。)
+
+[上一章 简单示例](./examples.md "Simple examples")
+[下一章 正则表达式](./regexp.md "Regular expressions")

@@ -190,3 +190,6 @@ collection.each {|element|
 Iterators can often be substituted for conventional loops, and once you get used to them, they are generally easier to deal with. So let's move on and learn more about them.
 
 **迭代器**通过被用来代替传统的**循环**，并且一旦你使用它们，它们通常更容易处理。因此，让我们继续学习，更多地了解它们。
+
+[上一章 再读“简单示例”](./backtoexamples.md "Back to the simple examples")
+[下一章 迭代器](./iterators.md "Iterators")

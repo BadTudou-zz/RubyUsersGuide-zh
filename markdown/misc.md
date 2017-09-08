@@ -187,3 +187,6 @@ As further questions arise, you can get more help from the user community, and f
 Good luck, and happy coding!
 
 祝你好运，编程快乐！
+
+[上一章 对象初始化](./objinitialization.md "Object initialization")
+[下一章 关于本指南](./about.md "About the guide")

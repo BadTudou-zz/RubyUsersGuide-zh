@@ -114,3 +114,6 @@ Sometimes it is useful to provide several ways to initialize an object.
 Although it is outside the scope of this tutorial, ruby supports object reflection and variable-length argument lists, which together effectively allow method overloading.
 
 虽然它超出了本教程的范围，但是**Ruby**支持**对象反射**和**变长参数列表**，这两者一起有效地允许方法重载。
+
+[上一章 访问器](./accessors.md "Accessors")
+[下一章 其他](./misc.md "misc")

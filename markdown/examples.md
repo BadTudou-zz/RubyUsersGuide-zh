@@ -142,3 +142,6 @@ Here, `nil` indicates that `puts` does not return a meaningful value. Note that 
 Throughout this guide, "`ruby>`" denotes the input prompt for our useful little `eval.rb` program.
 
 在本指南中，当我们正在运行`eval.rb`这个有用的程序时，就会有`Ruby`这个输入提示。
+
+[上一章 起步](./getstarted.md "起步")
+[下一章 字符串](./strings.md "字符串") 

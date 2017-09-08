@@ -134,3 +134,6 @@ ruby> begin
 An error occurred: test2
    nil
 ```
+
+[上一章 类常量](./constants.md "Class constants")
+[下一章 异常处理：ensure](./ensure.md "Exception processing: ensure")

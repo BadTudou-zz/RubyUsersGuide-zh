@@ -59,3 +59,6 @@ This program works like the UNIX cat command (but works slower than cat):
 而这个程序的作用则有点像**UNIX**中的**cat**命令(但是处理过程比**cat**慢)。
 
 `ruby -pe 0 file`
+
+[上一章 Ruby是什么？](./index.md "Ruby是什么？") 
+[下一章 简单示例](./examples.md "简单示例")

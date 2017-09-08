@@ -51,3 +51,6 @@ ruby> i
 Notice above that i does not report a value for @bar until after the set_bar method is invoked.
 
 注意，上面的`i`在调用`set-bar`方法之前并没有返回值。
+
+[上一章 全局变量](./globalvars.md "Global variables")
+[下一章 局部变量](./localvars.md "Local variables")

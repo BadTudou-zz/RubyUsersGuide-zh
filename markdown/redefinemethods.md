@@ -78,3 +78,6 @@ ruby> Honest.new.train_toll(25)
 Normal fare. 
    nil
 ```
+
+[上一章 继承](./inheritance.md "Inheritance")
+[下一章 访问控制](./accesscontrol.md "Access control")

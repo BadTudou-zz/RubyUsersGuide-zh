@@ -48,3 +48,6 @@ ruby> self
 ruby> nil
    nil
 ```
+
+[上一章 过程对象](./procobjects.md "Procedure objects")
+[下一章 全局变量](./globalvars.md "Global variables")

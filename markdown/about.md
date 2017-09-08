@@ -30,3 +30,8 @@ First English translation by GOTO Kentaro & Julian Fondren.
 Re-translation and added material by Mark Slagell.
 
 [Mark Slagell](mailto:slagell@ruby-lang.org)重译并补充了材料。
+
+[BadTudou](mailto:badtudou@gmail.com)翻译了简体中文版。
+
+[上一章 其他](./misc.md "misc")
+[下一章 版权信息](./copyright.md "Copyright")

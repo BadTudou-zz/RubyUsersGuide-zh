@@ -87,3 +87,6 @@ ruby> h[1]
 ruby> h
    {5=>10, "2"=>"4"}
 ```
+
+[上一章 正则表达式](./regexp.md "Regular expressions")
+[下一章 再读“简单示例”](./backtoexamples.md "Back to the simple examples")

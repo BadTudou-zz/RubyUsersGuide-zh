@@ -73,3 +73,6 @@ For example, if a class has a working each method, mixing in the standard librar
 This use of modules gives us the basic functionality of multiple inheritance but allows us to represent class relationships with a simple tree structure, and so simplifies the language implementation considerably (a similar choice was made by the designers of Java).
 
 模块的使用提供了多重继承的基本功能，但允许我们用简单的树结构来表示类关系，这样就大大简化了语言的实现(**Java**设计者也做出了类似的选择)。
+
+[上一章 单例方法](./singletonmethods.md "Singleton methods")
+[下一章 过程对象](./procobjects.md "Procedure objects")

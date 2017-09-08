@@ -146,3 +146,6 @@ What ruby does for you (as opposed, especially, to C++) is to make the practice 
 We will be discussing the ways in which ruby accomplishes that admirable goal as this guide progresses; the next topic will be the "switches and dials" (object methods) and from there we'll move on to the "factories" (classes). Are you still with us?
 
 我们将在这个指南中讨论**Ruby**实现这个令人钦佩的目标的方式，下一个主题将是“开关和刻度盘”(对象方法)，然后我们将进入“工厂”(类)。你要和我们一起探究下去么?
+
+[上一章 迭代器](./iterators.md "Iterators")
+[下一章 方法](./methods.md "Methods")

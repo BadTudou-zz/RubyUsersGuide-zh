@@ -206,3 +206,6 @@ ruby> "abcdef" =~ /d/
 ruby> "aaaaaa" =~ /d/
    nil
 ```
+
+[上一章 字符串](./strings.md "Strings")
+[下一章 数组](./arrays.md "Arrays")

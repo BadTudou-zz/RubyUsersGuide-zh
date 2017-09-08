@@ -135,3 +135,6 @@ What we would think of traditionally as a function call is just this abbreviated
 This makes ruby what is called a pure object oriented language. Still, functional methods behave quite similarly to the functions in other programming languages for the benefit of those who do not grok how function calls are really object methods in ruby. We can speak of functions as if they were not really object methods if we want to.
 
 这使得**Ruby**成为一种纯粹的面向对象语言。尽管如此，函数方法与其他编程语言中的函数非常相似，这对那些不知道**Ruby**中是对象方法是如何同函数方法一样被调用的人来说是有好处的。我们可以谈论函数，就好像它们不是真正的对象方法，如果我们想的话。
+
+[上一章 面向对象的思考](./oothinking.md "Object-oriented thinking")
+[下一章 类](./classes.md "Classes")

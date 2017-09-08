@@ -47,3 +47,6 @@ Singleton methods are often used for elements of a graphic user interface (GUI),
 Singleton methods are not unique to ruby, as they appear in CLOS, Dylan, etc. Also, some languages, for example, Self and NewtonScript, have singleton methods only. These are sometimes called prototype-based languages.
 
 **单例方法**并不是**Ruby**独有的，它出现于**CLOS**、**Dylan**等，同样，也出现于许多语言中，例如，**Self**和**NewtonScript**只有**单例方法**。它们有时被称为**基于原型的语言**。
+
+[上一章 访问控制](./accesscontrol.md "Access control")
+[下一章 模块](./modules.md "Modules")

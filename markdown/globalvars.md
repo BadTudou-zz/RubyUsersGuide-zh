@@ -45,3 +45,6 @@ In the above, $_ and $~ have local scope.
 Their names suggest they should be global, but they are much more useful this way, and there are historical reasons for using these names.
 
 它们的名称表明它们应该是全局的，但是它们在这种方式中更有用，使用这些名字的历史原因也有很多。
+
+[上一章 变量](./variables.md "Variables")
+[下一章 实例变量](./instancevars.md "Instance variables")

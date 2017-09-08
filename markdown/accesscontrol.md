@@ -116,3 +116,6 @@ The programmer who is in charge of this class can change engine freely (here, pe
 This example is of course much too simple to be useful; the benefits of access controls become more clear only when we begin to create more complicated and interesting classes.
 
 这个例子当然太简单了，不可能有用;只有当我们开始创建更复杂、更有趣的类时，访问控制的好处才会变得更加明显。
+
+[上一章 重新定义方法](./redefinemethods.md "Redefinition of methods")
+[下一章 单例方法](./singletonmethods.md "Singleton methods")

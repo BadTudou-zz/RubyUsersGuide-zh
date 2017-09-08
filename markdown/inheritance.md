@@ -73,3 +73,6 @@ Rather than exhaustively define every characteristic of every new class, we need
 This use of inheritance is sometimes called *differential programming*. It is one of the benefits of object-oriented programming.
 
 这种**继承**的使用有时被称为微分编程，这是面向对象编程的好处之一。
+
+[上一章 类](./classes.md "Classes")
+[下一章 重新定义方法](./redefinemethods.md "Redefinition of methods")

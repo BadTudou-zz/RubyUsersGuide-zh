@@ -198,3 +198,6 @@ If we wanted to, we could rewrite the inspect method so it tests instance variab
 since every piece of fruit has a kind and condition, it seems we should make sure those always get defined somehow. That is the topic of the next chapter.
 
 因为每一种水果都有种类和环境，似乎我们应该确保它们总是被定义的。这是下一章的主题。
+
+[上一章 异常处理：ensure](./ensure.md "Exception processing: ensure")
+[下一章 对象初始化](./objinitialization.md "Object initialization")

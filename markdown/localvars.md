@@ -149,3 +149,6 @@ The box method acts something like a class, with get and set serving as methods 
 Of course, using ruby's legitimate class framework leads to much more readable code.
 
 当然，使用**Ruby**的合法类框架会得到可读性更强的代码。
+
+[上一章 实例变量](./instancevars.md "Instance variables")
+[下一章 类常量](./constants.md "Class constants")

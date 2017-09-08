@@ -88,3 +88,6 @@ Bow Wow
 It's true: if we don't bother to give it a name (as we did for pochi), ruby's automatic garbage collection decides it is an unwanted stray dog, and mercilessly disposes of it. Really it's okay, you know, because we can make all the dogs we want.
 
 事实是：如果我们不费心给它取一个名字(就像我们给它取名**pochi**)，**Ruby**的自动垃圾回收便判定它是一条不受欢迎的流浪狗，并且残忍地处理它。真的这没问题，你知道的，我们可以制造所有我们想要的狗。
+
+[上一章 方法](./methods.md "Methods")
+[下一章 继承](./inheritance.md "Inheritance")

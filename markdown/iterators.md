@@ -194,3 +194,6 @@ Do you understand what an iterator is? There are a few restrictions, but you can
 In this sense, the above examples are not terribly useful. We can talk about practical iterators after we have a better understanding of what classes are.
 
 从这个意义上来说，上面的例子并不是很有用。在我们对课程有了更好的理解之后，我们可以讨论一些实际的迭代器。
+
+[上一章 流程控制](./control.md "Control structures")
+[下一章 面向对象的思考](./oothinking.md "Object-oriented thinking")

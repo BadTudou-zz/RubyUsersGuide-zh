@@ -68,3 +68,6 @@ end
 It is possible to use ensure without rescue, or vice versa, but if they are used together in the same begin...end block, the rescue must precede the ensure.
 
 可以在没有`rescue`的情况下使用`ensure`，反之亦然，但是如果它们在同一`begin...end`块中一起使用，`rescue`必须在`ensure`之前进行。
+
+[上一章 异常处理：rescue](./rescue.md "Exception processing: rescue")
+[下一章 访问器](./accessors.md "Accessors")

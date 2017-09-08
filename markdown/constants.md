@@ -85,3 +85,6 @@ ruby> ConstModule::C1=99   # 更早的版本中不允许这样做
 ruby> ConstModule::C1  # "enough rope to shoot yourself in the foot"
    99
 ```
+
+[上一章 局部变量](./localvars.md "Local variables")
+[下一章 异常处理：rescue](./rescue.md "Exception processing: rescue")

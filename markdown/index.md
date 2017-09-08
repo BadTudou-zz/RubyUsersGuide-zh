@@ -91,3 +91,6 @@ threading support
 If you are unfamiliar with some of the concepts above, read on, and don't worry. The mantra of the ruby language is quick and easy.
 
 如果你对上面的某些概念不熟悉，不必担心，继续往下看即可，因为**Ruby**的"**咒语**"灵活而简单。
+
+[上一章 目录](../README.md "目录") 
+[下一章 起步](./getstarted.md "起步")

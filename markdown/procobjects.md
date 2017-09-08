@@ -89,3 +89,6 @@ ruby> trap "SIGINT", 'puts "^C was pressed."'
 This abbreviated form provides some convenience and readability when you write small anonymous procedures.
 
 当您编写小型的匿名程序时，这个简短的表单提供了一些便利和可读性。
+
+[上一章 模块](./modules.md "Modules")
+[下一章 变量](./variables.md "Variables")

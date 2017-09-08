@@ -317,4 +317,7 @@ What gsub actually sees will be \&, and that happens to be a special code that r
 
 So the new string, when displayed, looks just like the old one, except that the parts that matched the given pattern are highlighted in inverse video.
 
-因此当新的字符串被显示时，除了那些与给定模式匹配的部分将在显示器中被高亮显示外，其他的看起来和旧的字符串是一样的，
+因此当新的字符串被显示时，除了那些与给定模式匹配的部分将在显示器中被高亮显示外，其他的看起来和旧的字符串是一样的。
+
+[上一章 数组](./arrays.md "Arrays")
+[下一章 流程控制](./control.md "Control structures")
