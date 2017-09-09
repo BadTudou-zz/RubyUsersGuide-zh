@@ -6,7 +6,13 @@
 
 本文档基于[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)和[Julian Fondren](mailto:gotoken@notwork.org)的英文版本翻译而来，而该英文版本则是基于[Ruby](https://www.ruby-lang.org/)的发明者[Yukihiro Matsumoto](mailto:matz@netlab.co.jp)编写的日文版本翻译而来。 
 
-为了减少翻译过程中的错误，我保留了英文版本的内容。因此不要对本文档有任何的抱怨或不满，**Fork**并完善它！
+为了减少翻译过程中的错误，我保留了英文版本的内容。因此不要对本文档有任何的抱怨或不满，**Fork**并完善它才是更有意义是事情！
+
+>只要眼睛多,bug容易捉。——李纳斯法则
+
+不要对错误和缺陷视而不见，任何建议或修正，请提交**Issues**，你的任何细微贡献，都将被提名感谢。
+
+向所有为[Ruby用户指南](https://github.com/BadTudou/RubyUsersGuide-zh)添砖加瓦的人[致敬](.markdown/contributor.md)！
 
 ## 目录
 
@@ -69,6 +75,8 @@
 [关于本指南](./markdown/about.md "About the guide")
 
 [版权信息](./markdown/copyright.md "Copyright")
+
+[贡献者名单](./markdown.contributor.md "Contributor")
 
 **Copyright (c) 2005-2014 Mark Slagell**
 
