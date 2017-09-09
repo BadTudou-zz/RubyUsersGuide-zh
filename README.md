@@ -12,7 +12,7 @@
 
 不要对错误和缺陷视而不见，任何建议或修正，请提交**Issues**，你的任何细微贡献，都将被提名感谢。
 
-向所有为[Ruby用户指南](https://github.com/BadTudou/RubyUsersGuide-zh)添砖加瓦的人[致敬](.markdown/contributor.md)！
+**向所有为本指南添砖加瓦的人[致敬](.markdown/contributor.md)！**
 
 ## 目录
 
