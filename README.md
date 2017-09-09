@@ -6,7 +6,7 @@
 
 本文档基于[GOTO Kentaro](http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide/)和[Julian Fondren](mailto:gotoken@notwork.org)的英文版本翻译而来，而该英文版本则是基于[Ruby](https://www.ruby-lang.org/)的发明者[Yukihiro Matsumoto](mailto:matz@netlab.co.jp)编写的日文版本翻译而来。 
 
-为了减少翻译过程中的错误，我保留了英文版本的内容。因此不要对本文档有任何的抱怨或不满，**Fork**并完善它才是更有意义是事情！
+为了减少翻译过程中的错误，我保留了英文版本的内容。因此不要对本文档有任何的抱怨或不满，**Fork**并完善它才是更有意义的事情！
 
 >只要眼睛多,bug容易捉。——李纳斯法则
 
@@ -76,7 +76,7 @@
 
 [版权信息](./markdown/copyright.md "Copyright")
 
-[贡献者名单](./markdown.contributor.md "Contributor")
+[贡献者名单](./markdown/contributor.md "Contributor")
 
 **Copyright (c) 2005-2014 Mark Slagell**
 
