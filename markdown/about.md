@@ -21,7 +21,7 @@ If you come across an out-of-date version, please notify the webmaster where the
 
 Original Japanese version by matz.
 
-最初的日文版由**<matz@netlab.co.jp>**编写。
+最初的日文版由<matz@netlab.co.jp>编写。
 
 First English translation by GOTO Kentaro & Julian Fondren.
 

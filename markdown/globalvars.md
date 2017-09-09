@@ -1,26 +1,69 @@
 # 全局变量
-Global variables
+**Global variables**
 
-A global variable has a name beginning with $. It can be referred to from anywhere in a program. Before initialization, a global variable has the special value nil.
+**全局变量**
 
+A global variable has a name beginning with $. 
+
+一个**全局变量**以`$`开头。
+
+It can be referred to from anywhere in a program. Before initialization, a global variable has the special value nil.
+
+你可以在程序的任何地方引用**全局变量**。在对其进行初始化之前，一个全局变量的值是特殊的`nil`值。
+
+```
 ruby> $foo
    nil
 ruby> $foo = 5
    5
 ruby> $foo
    5
-Global variables should be used sparingly. They are dangerous because they can be written to from anywhere. Overuse of globals can make isolating bugs difficult; it also tends to indicate that the design of a program has not been carefully thought out. Whenever you do find it necessary to use a global variable, be sure to give it a descriptive name that is unlikely to be inadvertently used for something else later (calling it something like $foo as above is probably a bad idea).
+```
+
+Global variables should be used sparingly. 
+
+应当谨慎使用**全局变量**。
+
+They are dangerous because they can be written to from anywhere. 
+
+全局变量非常危险，因为它们可以在任何地方被改写。
+
+Overuse of globals can make isolating bugs difficult; it also tends to indicate that the design of a program has not been carefully thought out. 
+
+过度使用**全局变量**会使隔离Bug变得很困难;它也倾向于表明一个程序的设计并没有经过仔细的考虑。
+
+Whenever you do find it necessary to use a global variable, be sure to give it a descriptive name that is unlikely to be inadvertently used for something else later (calling it something like $foo as above is probably a bad idea).
+
+无论何时，当你发现有必要使用**全局变量**时，一定要给它一个描述性的名称，这个名称不太可能在以后的其他地方使用它(将其命名为`$foo`可能是一个坏主意)。
 
 One nice feature of a global variable is that it can be traced; you can specify a procedure which is invoked whenever the value of the variable is changed.
 
+**全局变量**的一个很好的特性是它可以被跟踪;你可以指定一个**过程**，该**过程**在变量的值被更改时被调用。
+
+```
 ruby> trace_var :$x, proc{puts "$x is now #{$x}"}
    nil
 ruby> $x = 5
 $x is now 5
    5
-When a global variable has been rigged to work as a trigger to invoke a procedure whenever changed, we sometimes call it an active variable. For instance, it might be useful for keeping a GUI display up to date.
+```
 
-There is a collection of special variables whose names consist of a dollar sign ($) followed by a single character. For example, $$ contains the process id of the ruby interpreter, and is read-only. Here are the major system variables:
+When a global variable has been rigged to work as a trigger to invoke a procedure whenever changed, we sometimes call it an active variable. 
+
+当一个**全局变量**被操纵，作为触发器来调用一个过程时，我们有时会把它称为一个**活动变量**。
+
+For instance, it might be useful for keeping a GUI display up to date.
+
+例如，当让保持GUI所显示的日期时，全局变量可能会很有用。
+
+There is a collection of special variables whose names consist of a dollar sign ($) followed by a single character. 
+
+有一组特殊的变量，它们的名字由一个美元符号(`$`)组成，后面跟着一个字符。
+
+For example, $$ contains the process id of the ruby interpreter, and is read-only. Here are the major system variables:
+
+例如，`$$`包含**Ruby**解释器的进程id，并且是只读的。以下是主要的系统变量:
+
 |  标识符 |                    类型 |
 | ---: | --------------------: |
 |   $! |               最新的错误消息 |
