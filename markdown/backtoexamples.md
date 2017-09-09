@@ -84,6 +84,7 @@ ARGV is an array which contains command line arguments. The members of ARGV are 
 `ARGV`是一个包含了命令行参数的数组。`ARGV`的成员都是字符串，所以我们必须用`to_i`将其转换成整数。**Ruby**不会像**Perl**那样自动将一个字符串转换为整数。
 
 What would happen if we fed this program a negative number? Do you see the problem? Can you fix it?
+
 如果我们给这个程序一个负数，会发生什么呢?
 你找到问题所在了么？能够完善它么？
 
@@ -91,7 +92,8 @@ Strings
 字符串
 
 Next we examine the puzzle program from the chapter on strings. As this is somewhat longer, we number the lines for reference.
-接下来，我们将从字符串的章节中研究这个谜题程序。由于话费的时间更长，所以我们为代码标注了行号。
+
+接下来，我们将从**字符串**的章节中研究这个谜题程序。由于花费的时间更长，所以我们为代码标注了行号。
 
 ```
 01 words = ['foobar', 'baz', 'quux']
@@ -121,7 +123,7 @@ The code between while and its corresponding end will execute repeatedly as long
 
 In this case, guess=STDIN.gets is both an active statement (collecting a line of user input and storing it as guess), and a condition (if there is no input, guess, which repesents the value of the whole guess=STDIN.gets expression, has a nil value, causing while to stop looping).
 
-在这里，`guess=STDIN.gets`既是一个活动语句(收集用户输入并将其保存在guess中)，又是一个条件(如果没有输入，执行表达式guess=STDIN.gets所得到的guess，其值将为nil，进行导致循环被终止)。
+在这里，`guess=STDIN.gets`既是一个活动语句(收集用户输入并将其保存在guess中)，又是一个条件(如果没有输入，执行表达式`guess=STDIN.gets`所得到的`guess`，其值将为`nil`，进行导致循环被终止)。
 
 STDIN is the standard input object. Usually, guess=gets does the same thing as guess=STDIN.gets.
 
@@ -236,7 +238,7 @@ An if modifier is conventionally used in situations where a statement and condit
 
 Note the difference in the user interface compared to the string-guessing script. This one lets the user quit by hitting the Return key on an empty line. We are testing for emptiness of the input string, not for its nonexistence.
 
-请注意用户界面与"猜测字符串"脚本的区别。这个允许用户在空行上输入回车键来退出，我们正在测试的是输入的字符串为空，而不是没有任何输入。
+请注意用户界面与"猜单词"脚本的区别。这个允许用户在空行上输入回车键来退出，我们正在测试的是输入的字符串为空，而不是没有任何输入。
 
 In lines 7 and 9 we have a "non-destructive" chop; again, we're getting rid of the unwanted newline character we always get from gets. 
 

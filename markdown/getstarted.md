@@ -15,9 +15,10 @@ First, you'll want to check whether ruby is installed. From the shell prompt (de
 
 然后按下**回车键**。如果**Ruby**已经安装，你将会看到类似下面这样的信息:
 
-`ruby -v`
-
-**ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-linux]**
+```
+ruby -v
+ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-linux]
+```
 
 If ruby is not installed, you can ask your administrator to install it, or you can do it yourself, since ruby is free software with no restrictions on its installation or use.
 
@@ -25,20 +26,22 @@ If ruby is not installed, you can ask your administrator to install it, or you c
 
 Now, let's play with ruby. You can place a ruby program directly on the command line using the -e option:
 
-现在，让我们来把玩一下**Ruby**。你可以在**命令行中**用`-e`选项来直接执行**Ruby**程序。
+现在，让我们来把把玩一下**Ruby**。你可以在**命令行中**用`-e`选项来直接执行**Ruby**程序。
 
-`ruby -e 'puts "hello world"'`
-
-**hello world**
+```
+ruby -e 'puts "hello world"
+hello world
+```
 
 More conventionally, a ruby program can be stored in a file.
 
 更传统一点，一个**Ruby**程序也可以被保存在文件中。
 
-`echo "puts 'hello world'" > hello.rb`
-`ruby hello.rb`
-
-**hello world**
+```
+echo "puts 'hello world'" > hello.rb
+ruby hello.rb
+hello world**
+```
 
 When writing more substantial code than this, you will want to use a real text editor!
 

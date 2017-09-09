@@ -21,8 +21,8 @@ ruby> case i
     | when 6..10
     |   puts "6..10"
     | end
-**6..10**
- **nil**
+6..10
+nil
 ```
 
 2..5 is an expression which means the range between 2 and 5, inclusive. The following expression tests whether the value of i falls within that range:
@@ -134,7 +134,7 @@ Ruby's for can serve the same purpose, but adds some flexibility.
 
 The loop below runs once for each element in a collection (array, hash, numeric sequence, etc.), but doesn't make the programmer think about indices:
 
-下面的循环为**集合**(**数组**，**哈希**，**数字序列**等等)中的每个元素运行一次，但是并不需要程序员考虑**索引**。
+下面的循环为**集合**(**数组**，**散列**，**数字序列**等等)中的每个元素运行一次，但是并不需要程序员考虑**索引**。
 
 ```
 for elt in collection

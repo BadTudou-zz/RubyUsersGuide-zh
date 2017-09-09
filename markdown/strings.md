@@ -15,7 +15,7 @@ ruby> 'abc'
 ```
 Double- and single-quoting have different effects in some cases. A double-quoted string allows character escapes by a leading backslash, and the evaluation of embedded expressions using #{}. A single-quoted string does not do this interpreting; what you see is what you get. Examples:
 
-在某些场景中，双引号和单引号会产生不同的结果。双引号字符串允许通过反斜线对字符进行转义，以及对使用`#{}`嵌入的表达式进行求值。单引号字符串则不对这些进行解释，你所看到的便是其最终的结果。比如：
+在某些场景中，**双引号**和**单引号**会产生不同的结果。**双引号**字符串允许通过**反斜线**对字符进行**转义**，以及对使用`#{}`嵌入的表达式进行求值。**单引号**字符串则不对这些进行解释，你所看到的便是其最终的结果。比如：
 ```
 ruby> puts "a\nb\nc"
 a
@@ -184,13 +184,16 @@ For now, don't worry too much about the details of this code. Here is what a run
 
 现在，不要太担心这段代码的细节。下面是这个谜题程序的运行情况。
 
-`% ruby guess.rb`
-**guess? foobar**
-**Sorry, you lose.**
-**guess? quux**
-**Sorry, you lose.**
-**guess? ^D**
-**The word was baz.**
+```
+ruby guess.rb
+guess? foobar
+Sorry, you lose.
+guess? quux
+Sorry, you lose.
+guess? ^D
+The word was baz.
+```
+
 (I should have done a bit better, considering the 1/3 probability of success.)
 
 (考虑到1/3的成功概率，我应该可以做得更好一些。)

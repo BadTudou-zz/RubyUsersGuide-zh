@@ -17,7 +17,7 @@ In OO programming terminology, a category of objects like "dog" is called a clas
 
 Generally, to make an object in ruby or any other OO language, first one defines the characteristics of a class, then creates an instance. To illustrate the process, let's first define a simple Dog class.
 
-通常，在Ruby或任何其他OO语言中，想要创造一个对象，第一步是定义一个**类**的特征，染成再创建一个**实例**。为了阐述这个过程，让我们先定义一个简单的**Dog**类。
+通常，在Ruby或任何其他OO语言中，想要创造一个对象，第一步是定义一个**类**的特征，然后再创建一个**实例**。为了阐述这个过程，让我们先定义一个简单的**Dog**类。
 
 ```
 ruby> class Dog

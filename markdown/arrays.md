@@ -57,7 +57,7 @@ ruby> str.split(":")
 
 **Hashes**
 
-**哈希**
+**散列**
 
 An associative array has elements that are accessed not by sequential index numbers, but by keys which can have any sort of value. Such an array is sometimes called a hash or dictionary; 
 
@@ -65,7 +65,7 @@ An associative array has elements that are accessed not by sequential index numb
 
 In the ruby world, we prefer the term hash. A hash can be constructed by quoting pairs of items within curly braces ({}). You use a key to find something in a hash, much as you use an index to find something in an array.
 
-在**Ruby**的世界里，我们更喜欢将它称之为**哈希**。可以通过在**花括号中**引用成对的哈希项来构造**哈希**。你通过**键**在**哈希**中查找哈希项，就如同你用**索引**在**数组中**查找**数组元素**一样。
+在**Ruby**的世界里，我们更喜欢将它称之为**散列**。可以通过在**花括号中**引用成对的**散列项**来构造**散列**。你通过**键**在**散列**中查找**散列项**，就如同你用**索引**在**数组中**查找**数组元素**一样。
 
 ```
 ruby> h = {1 => 2, "2" => "4"}
