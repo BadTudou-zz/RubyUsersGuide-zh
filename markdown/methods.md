@@ -99,7 +99,7 @@ So it is necessary to know what methods are acceptable to an object, though we n
 
 If arguments are given to a method, they are generally surrounded by parentheses,
 
-如果参数被赋予一个方法，它们通常都被圆括号括起来`()`，
+如果参数被提供给一个方法，它们通常都被圆括号括起来`()`，
 
 ```
 object.method(arg1, arg2)
