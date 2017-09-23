@@ -254,7 +254,7 @@ Add the exclamation point, and we have a "destructive" chop. What's the differen
 
 chop! affects a string directly, but chop gives you a chopped copy without damaging the original. Here is an illustration of the difference.
 
-`chop!`直接更改一个字符串，而`chop`会给你一个截好的副本而不会破坏原始的文本。这里是一个解释它们差异的例子：
+`chop!`直接更改一个字符串，而`chop`会给你一个截好的副本而不会破坏原始的字符串。这里是一个解释它们差异的例子：
 
 ```
 ruby> s1 = "forth"
@@ -269,7 +269,7 @@ ruby> s1             # ... 没有修改s1.
 
 You'll also sometimes see chomp and chomp! used. These are more selective: the end of a string gets bit off only if it happens to be a newline. So for example, "XYZ".chomp! does nothing.
 
-有时你会看到`chomp`和`chomp!`都被使用，这是可以选择的：只有当字符串的末尾是换行符时，才会认为它已经结束了。举个例子，`"XYZ".chomp!"`就会什么也不做。
+有时你也会看到`chomp`和`chomp!`被使用。这两个方法具有更强的选择性：只有当字符串的末尾是换行符时，才会认为它已经结束了。举个例子，`"XYZ".chomp!"`就会什么也不做。
 
 If you need a trick to remember the difference, think of a person or animal tasting something before deciding to take a bite, as opposed to an axe chopping indiscriminately.
 
