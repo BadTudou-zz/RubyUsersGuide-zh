@@ -53,23 +53,23 @@ There are some characters and character combinations that have special meaning i
 
 \* zero or more repetitions of the preceding
 
-**\*** **先前的0次或多次重复**
+**\*** **前述字符的0次或多次重复**
 
 \+ one or more repetitions of the preceding
 
-**\+** **先前的1次或多次重复**
+**\+** **前述字符的1次或多次重复**
 
 {m,n} at least m and at most n repetitions of the preceding
 
-**{m,n}** **重复次数在m和之间**
+**{m,n}** **前述字符的重复次数在m和n之间**
 
 ?at most one repetition of the preceding; same as {0,1}
 
-**?** **重复次数最多1次，等同于{0,1}**
+**?** **前述字符的重复次数最多1次，等同于{0,1}**
 
 |either preceding or next expression may match
 
-**|** **在2个表达式中任选其一**
+**|** **匹配其前后2个表达式中的任意一个**
 
 ()grouping
 
@@ -77,7 +77,7 @@ There are some characters and character combinations that have special meaning i
 
 The common term for patterns that use this strange vocabulary is regular expressions. In ruby, as in Perl, they are generally surrounded by forward slashes rather than double quotes.
 
-使用这种奇怪词汇表的模式等常用术语是**正则表达式**。**Ruby**和**Perl**一样，**正则表达式**通常被**斜线**包围，而不是**双引号**。
+使用这种奇怪词汇表的模式的常用术语是**正则表达式**。**Ruby**和**Perl**一样，**正则表达式**通常被**斜线**包围，而不是**双引号**。
 
 If you have never worked with regular expressions before, they probably look anything but regular, but you would be wise to spend some time getting familiar with them. 
 
