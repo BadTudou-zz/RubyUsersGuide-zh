@@ -33,7 +33,7 @@ You may notice the repeated occurrence of `end`. Ruby has been called "Algol-lik
 
 You may also notice the lack of a `return` statement. It is unneeded because a ruby function returns the last thing that was evaluated in it. Use of a `return` statement here is permissible but unnecessary.
 
-你可能还注意到了没有`return`语句，因为它并不是必须要有的，**Ruby**中函数将自动返回最后一个求得的值。因此这里可以选择要不要使用`return`，并没有强制规定要求必须要使用它。
+你可能还注意到了没有`return`语句，因为它并不是必须要有的，**Ruby**中函数将自动返回最后一个求得的值。在这里使用`return`指令是可以的，但是却是多余的。
 
 Let's try out our factorial function. Adding one line of code gives us a working program:
 
@@ -104,7 +104,7 @@ puts "good-bye world"
 
 The *^D* above means control-D, a conventional way to signal end-of-input in a Unix context. In DOS/Windows, try pressing *F6* or *^Z* instead.
 
-上面的**^D**代表**Ctrl+D**，它是一种用于在**Unix**上下文中表示结束输入的传统方法，在**DOS/Windows**上，对应的则应该输入**F6**或**Ctrl+Z**。
+上面的 **^D** 代表 **Ctrl+D**，它是一种用于在**Unix**上下文中表示结束输入的传统方法，在**DOS/Windows**上，对应的则应该输入**F6**或**Ctrl+Z**。
 
 Ruby also comes with a program called `eval.rb` that allows you to enter ruby code from the keyboard in an interactive loop, showing you the results as you go. It will be used extensively through the rest of this guide.
 
@@ -135,7 +135,7 @@ Here, `nil` indicates that `puts` does not return a meaningful value. Note that 
 
 Throughout this guide, "`ruby>`" denotes the input prompt for our useful little `eval.rb` program.
 
-在本指南中，当我们正在运行`eval.rb`这个有用的程序时，就会有`Ruby`这个输入提示。
+在本指南中，当我们正在运行`eval.rb`这个有用的程序时，就会有`ruby>`这个输入提示。
 
 [上一章 起步](./getstarted.md "起步")
 [下一章 字符串](./strings.md "字符串") 
