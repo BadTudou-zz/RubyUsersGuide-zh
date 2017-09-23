@@ -11,7 +11,7 @@ This chapter explores more of ruby's control structures.
 
 We use the case statement to test a sequence of conditions. This is superficially similar to switch in C and Java but is considerably more powerful, as we shall see.
 
-我们使用`case`语句来测试一个条件序列。表面上看它与**C**和**JAVA**中的`switch`类似，但正如我们所看到的，实际上它要比`switch`强大得多。
+我们使用`case`语句来测试一个条件序列。表面上看它与**C**和**JAVA**中的`switch`类似，但正如我们将要看到的，实际上它要比`switch`强大得多。
 
 ```
 ruby> i=8
@@ -35,7 +35,7 @@ nil
 
 case internally uses the relationship operator === to check for several conditions at a time.
 
-`case`来内部使用关系运算符`===`来一次检查多个条件。
+`case`在内部使用了关系运算符`===`来一次检查多个条件。
 
 In keeping with ruby's object oriented nature, === is interpreted suitably for the object that appeared in the when condition. 
 
@@ -189,7 +189,7 @@ collection.each {|element|
 ```
 Iterators can often be substituted for conventional loops, and once you get used to them, they are generally easier to deal with. So let's move on and learn more about them.
 
-**迭代器**通过被用来代替传统的**循环**，并且一旦你使用它们，它们通常更容易处理。因此，让我们继续学习，更多地了解它们。
+**迭代器**通常被用来代替传统的**循环**，并且一旦你习惯了它们，它们通常更容易处理。因此，让我们继续学习，更多地了解它们。
 
 [上一章 再读“简单示例”](./backtoexamples.md "Back to the simple examples")
 [下一章 迭代器](./iterators.md "Iterators")
