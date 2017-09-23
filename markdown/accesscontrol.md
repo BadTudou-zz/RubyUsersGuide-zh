@@ -69,11 +69,11 @@ A common mental discipline in OO programming, which we have hinted at in an earl
 
 The internal workings of an object should be kept generally hidden from its users; they should only care about what goes in and what comes out, and trust the object to know what it is doing internally. 
 
-对象内部的工作状态对使用者而言，应该保持在隐藏状态。使用者只关心传进去的是什么，得到的又是什么，并且信任这个对象，知道它在内部做什么。
+对象内部的工作状态对使用者而言，应该保持在隐藏状态。使用者只关心传进去的是什么，得到的又是什么，并且信任这个对象知道它自己在内部做什么。
 
 As such it is often helpful for classes to have methods that the outside world does not see, but which are used internally (and can be improved by the programmer whenever desired, without changing the way users see objects of that class). In the trivial example below, think of engine as the invisible inner workings of the class.
 
-因此，对于类来说，拥有外部世界没有看到的方法是很有帮助的，这些方法是在内部使用的(并且可以在需要的时候由程序员改进，而不会改变用户查看该类的方法)。
+因此，对于类来说，拥有外部世界不可见但是在内部被使用的方法通常是有用的(并且可以在需要的时候由程序员改进，而不会改变用户查看该类的对象的方式)。
 
 在下面的简单例子中，将**engine**看作是类中不可见的内部工作。
 
@@ -111,7 +111,7 @@ We are required to go through the public interface, which consists of the times_
 
 The programmer who is in charge of this class can change engine freely (here, perhaps by changing b*2 to b+b, assuming for the sake of argument that it improved performance) without affecting how the user interacts with Test objects. 
 
-负责这个类的程序员可以自由地改变engie(在这里，可能是通过将`b*2`修改为`b+b`，假设是为了提高性能)，而不影响用户与测试对象的交互。
+负责这个类的程序员可以自由地改变engine(在这里，可能是通过将`b*2`修改为`b+b`，假设是为了提高性能)，而不影响用户与Test对象的交互。
 
 This example is of course much too simple to be useful; the benefits of access controls become more clear only when we begin to create more complicated and interesting classes.
 
