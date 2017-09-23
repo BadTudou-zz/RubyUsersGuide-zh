@@ -47,7 +47,7 @@ Meow
 
 There will be situations where certain properties of the superclass should not be inherited by a particular subclass. Though birds generally know how to fly, penguins are a flightless subclass of birds.
 
-在某些情况下，**父类**的某些属性不应该由特定的**子类**继承。
+在某些情况下，**父类**的某些属性不应该由特定的**子类**继承。尽管鸟类一般都知道如何飞行，但是企鹅是鸟类的一个不能飞行的子类。
 
 ```
 ruby> class Bird
@@ -72,7 +72,7 @@ Rather than exhaustively define every characteristic of every new class, we need
 
 This use of inheritance is sometimes called *differential programming*. It is one of the benefits of object-oriented programming.
 
-这种**继承**的使用有时被称为微分编程，这是面向对象编程的好处之一。
+这种**继承**的使用有时被称为**微分编程**，这是面向对象编程的好处之一。
 
 [上一章 类](./classes.md "Classes")
 [下一章 重新定义方法](./redefinemethods.md "Redefinition of methods")
