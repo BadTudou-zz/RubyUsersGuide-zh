@@ -46,7 +46,7 @@ ruby> ary[-2..-1]
 
 Arrays can be converted to and from strings, using join and split respecitvely:
 
-数组可以被转换为字符串，字符串也可以转换为数组，分别使用join方法和split方法：
+数组可以被转换为字符串，字符串也可以被转换为数组，分别使用join方法和split方法：
 
 ```
 ruby> str = ary.join(":")
