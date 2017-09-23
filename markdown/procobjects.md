@@ -5,7 +5,7 @@
 
 It is often desirable to be able to specify responses to unexpected events. 
 
-能够指定对意外事件的响应通常是可取的。
+我们通常希望能够指定对意外事件的响应。
 
 As it turns out, this is most easily done if we can pass blocks of code as arguments to other methods, which means we want to be able to treat code as if it were data.
 
