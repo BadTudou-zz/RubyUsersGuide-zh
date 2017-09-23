@@ -26,7 +26,7 @@ If ruby is not installed, you can ask your administrator to install it, or you c
 
 Now, let's play with ruby. You can place a ruby program directly on the command line using the -e option:
 
-现在，让我们来把把玩一下**Ruby**。你可以在**命令行中**用`-e`选项来直接执行**Ruby**程序。
+现在，让我们来把玩一下**Ruby**。你可以在**命令行中**用`-e`选项来直接执行**Ruby**程序。
 
 ```
 ruby -e 'puts "hello world"
@@ -35,7 +35,7 @@ hello world
 
 More conventionally, a ruby program can be stored in a file.
 
-更传统一点，一个**Ruby**程序也可以被保存在文件中。
+更传统一点，**Ruby**程序可以被保存在文件中。
 
 ```
 echo "puts 'hello world'" > hello.rb
