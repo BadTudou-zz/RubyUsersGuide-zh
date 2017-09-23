@@ -15,3 +15,6 @@
 3.[Mark Slagell](mailto:slagell@ruby-lang.org)
 
 **Mark Slagell**重译了英文译本，并补充了有关资料，使得本文档更加完善。
+
+4.[Kun Liu](https://github.com/liukgg)
+**Kun Liu**纠正了 [《起步》](./markdown/getstarted.md "Getting started")与[《简单示例》](./markdown/examples.md "Simple examples")中不优雅的中文翻译。:clap:
