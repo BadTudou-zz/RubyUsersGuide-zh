@@ -8,11 +8,11 @@ Modules in ruby are similar to classes, except:
 **Ruby**中的**模块**同**类**非常相似，但有些许不同：
 
 - A module can have no instances.
-- 一个模块可以没有实例。
+- 模块不能有实例。
 - A module can have no subclasses.
-- 一个模块可以没有子类。
+- 模块不能有子类。
 - A module is defined by module ... end.
-- 一个模块是由`module … end`定义的。
+- 模块是通过`module … end`定义的。
 
 Actually... the Module class of module is the superclass of the Class class of class. Got that? No? Let's move on.
 
@@ -20,7 +20,7 @@ Actually... the Module class of module is the superclass of the Class class of c
 
 There are two typical uses of modules. One is to collect related methods and constants in a central location. The Math module in ruby's standard library plays such a role:
 
-模块有两种典型的用法。其一是在中心位置收集相关的方法和常量。**Ruby**标准库中的数学模块发挥了这样的作用:
+模块有两种典型的用法。其一是在一个集中的位置收集相关的方法和常量。**Ruby**标准库中的数学模块发挥了这样的作用:
 
 ```
 ruby> Math.sqrt(2)
@@ -31,11 +31,11 @@ ruby> Math::PI
 
 The :: operator tells the ruby interpreter which module it should consult for the value of a constant (conceivably, some module besides Math might mean something else by PI). 
 
-这个`::`操作符告诉**Ruby**解释器，它应该为一个常量的值进行协商(可以想象，除了数学之外，某些模块还可能有**PI**)。
+这个`::`操作符告诉**Ruby**解释器，它应该咨询哪个模块来得到一个常量的值(可以想象，除了**Math**之外的某个模块还可能用**PI**表达其他内容)。
 
 If we want to refer to the methods or constants of a module directly without using ::, we can include that module:
 
-如果我们想直接引用**模块**的**方法**或**常量**，而不需要使用`::`，我们可以`include`那个模块：
+如果我们想不使用`::`而是直接引用某个**模块**的**方法**或**常量**，那么我们可以`include`那个模块：
 
 ```
 ruby> include Math
@@ -52,11 +52,11 @@ Another use of modules is called mixin. Some OO programming languages, including
 
 A real-world example of multiple inheritance is an alarm clock; you can think of alarm clocks as belonging to the class of clocks and also the class of things with buzzers.
 
-现实世界中**多重继承**的例子是闹钟。你可以把闹钟看作属于**钟**类，也可以看作属于**蜂鸣器**类。
+**多重继承**的一个现实生活中的例子是闹钟。你可以把闹钟看作属于**钟**类，也可以看作属于**蜂鸣器**类。
 
 Ruby purposely does not implement true multiple inheritance, but the mixin technique is a good alternative. 
 
-**Ruby**故意不实现真正的多重继承，但是**mixin**技术是一个不错的选择。
+**Ruby**故意不实现真正的多重继承，但是**mixin**技术是一个不错的替代品。
 
 Remember that modules cannot be instantiated or subclassed; but if we include a module in a class definition, its methods are effectively appended, or "mixed in", to the class.
 
@@ -64,11 +64,11 @@ Remember that modules cannot be instantiated or subclassed; but if we include a 
 
 Mixin can be thought of as a way of asking for whatever particular properties we want to have. 
 
-**Mixin**可以被认为是一种询问我们想要的特定属性的方法。
+**Mixin**可以被认为是一种请求任何我们想要的特定属性的方式。
 
 For example, if a class has a working each method, mixing in the standard library's Enumerable module gives us sort and find methods for free.
 
-比如，如果一个类有一个工作的`each`方法，混合了在标准库的可枚举模块中提供的排序和查找方法。
+比如，如果一个类有一个可工作的`each`方法，那么混合标准库中的`Enumerable`模块可以免费为我们提供`sort`和`find`方法。
 
 This use of modules gives us the basic functionality of multiple inheritance but allows us to represent class relationships with a simple tree structure, and so simplifies the language implementation considerably (a similar choice was made by the designers of Java).
 
