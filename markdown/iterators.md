@@ -17,7 +17,7 @@ They are also used in Lisp, though there they are not called iterators. However 
 
 The verb iterate means to do the same thing many times, you know, so an iterator is something that does the same thing many times.
 
-谓词**迭代**意味着多次执行相同的操作，所以**迭代器**就是多次执行相同操作的东西。
+动词**迭代**意味着多次执行相同的操作，所以**迭代器**就是多次执行相同操作的东西。
 
 When we write code, we need loops in various situations. In C, we code them using for or while. For example,
 
@@ -36,7 +36,7 @@ C's for(...) syntax provides an abstraction to help with the creation of a loop,
 
 This makes C feel like a low-level language. Higher level languages are marked by their more flexible support for iteration. Consider the following sh shell script:
 
-这让**C**感觉像是一种低级语言，更高级别的语言z则通过对**迭代**的显式支持使其更加灵活。考虑下面的`shell`脚本：
+这让**C**感觉像是一种低级语言，更高级别的语言则通过对**迭代**的显式支持使其更加灵活。考虑下面的`shell`脚本：
 
 ```
  #!/bin/sh
@@ -47,7 +47,7 @@ done
 
 All the C source and header files in the current directory are processed, and the command shell handles the details of picking up and substituting file names one by one. I think this is working at a higher level than C, don't you?
 
-当前目录中的所有**C**源文件和头文件都被处理了，并且命令shell将处理获取和替换文件名的详细信息。相比**C**，我认为我们更关注于处理比较高层次的工作，你觉得呢？
+当前目录中的所有**C**源文件和头文件都被处理了，并且命令shell将处理获取和替换文件名的详细信息。相比**C**，我认为这是在更高的层次上工作，你觉得呢？
 
 But there is more to consider: while it is fine for a language to provide iterators for built-in data types, it is a disappointment if we must go back to writing low level loops to iterate over our own data types. In OOP, users often define one data type after another, so this could be a serious problem.
 
