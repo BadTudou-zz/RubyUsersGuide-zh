@@ -13,7 +13,7 @@ Two different objects, even if they belong to the same class, are allowed to hav
 
 From outside the object, instance variables cannot be altered or even observed (i.e., ruby's instance variables are never public) except by whatever methods are explicitly provided by the programmer. 
 
-对于外部对象，除了由程序员明确提供的方法之外，**实例变量**不可改变，甚者不可访问(即，**Ruby**的实例变量从来不是公开的)。
+对于外部对象，除了由程序员明确提供的方法之外，**实例变量**不可改变，甚至不可见(即，**Ruby**的实例变量从来不是公开的)。
 
 As with globals, instance variables have the nil value until they are initialized.
 
@@ -25,7 +25,7 @@ Instance variables do not need to be declared.
 
 This indicates a flexible object structure; in fact, each instance variable is dynamically appended to an object when it is first assigned.
 
-这表明了一个灵活的对象结构，事实上，每个**实例变量**都是在第一次分配时都被动态地追加到一个对象中。
+这表明了一个灵活的对象结构，事实上，每个**实例变量**都是在第一次被赋值时被动态地追加到一个对象中。
 
 ```
 ruby> class InstTest
@@ -50,7 +50,7 @@ ruby> i
 ```
 Notice above that i does not report a value for @bar until after the set_bar method is invoked.
 
-注意，上面的`i`在调用`set-bar`方法之前并没有返回值。
+注意，上面的`i`在调用`set-bar`方法之前并没有返回@bar的值。
 
 [上一章 全局变量](./globalvars.md "Global variables")
 [下一章 局部变量](./localvars.md "Local variables")
