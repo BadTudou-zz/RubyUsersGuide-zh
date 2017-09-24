@@ -9,19 +9,19 @@ What is an accessor?
 
 We briefly discussed instance variables in an earlier chapter, but haven't done much with them yet. 
 
-我们在前面的章节中简要地讨论了**实例变量**，但是还没有对它们对过多的讨论。
+我们在前面的章节中简要地讨论了**实例变量**，但是还没有对它们做过多的讨论。
 
 An object's instance variables are its attributes, the things that distinguish it from other objects of the same class. 
 
-对象的实例变量是它的属性，它将它与同类的其他对象区分开来。
+对象的实例变量是它的属性，实例变量将它与同类的其他对象区分开来。
 
 It is important to be able to write and read these attributes; doing so requires methods called attribute accessors. 
 
-能够编写和读取这些属性是很重要的，这样做需要称为属性访问器的方法。
+能够读写这些属性是很重要的，这样做需要称为属性访问器的方法。
 
 We'll see in a moment that we don't always have to write accessor methods explicitly, but let's go through all the motions for now. The two kinds of accessors are writers and readers.
 
-稍后我们会看到，我们并不总是需要显式地编写访问器方法，现在让我们来看看所有的动作。这两种读写方法是**writers**和**readers**。
+稍后我们会看到，我们并不总是需要显式地编写访问器方法，但是现在先让我们来看看所有的动作。这两种访问器分别是**writers**和**readers**。
 
 ```
 ruby> class Fruit
