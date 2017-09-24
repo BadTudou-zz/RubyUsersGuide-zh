@@ -117,7 +117,7 @@ Every ruby library raises an exception if any error occurs, and you can raise ex
 
 To raise an exception, use raise. It takes one argument, which should be a string that describes the exception. 
 
-使用`raise`来引发一个异常。它需要一个参数，它应该是一个描述异常的字符串。
+使用`raise`来抛出一个异常。它可以接受一个描述异常的字符串作为参数。
 
 The argument is optional but should not be omitted. It can be accessed later via the special global variable $!.
 
