@@ -25,7 +25,7 @@ Multiple statements on one line must be separated by semicolons, but they are no
 
 a linefeed is treated like a semicolon. If a line ends with a backslash (\\), the linefeed following it is ignored; this allows you to have a single logical line that spans several lines.
 
-一个换行符被当作分号对待。如果一行以fa反斜线(`\`)结尾，下面的换行符将被忽略。这允许你有一个跨越多行代码的逻辑行。
+一个换行符被当作分号对待。如果一行以反斜线(`\`)结尾，下面的换行符将被忽略。这允许你有一个跨越多行代码的逻辑行。
 
 **Comments**
 
@@ -37,11 +37,11 @@ Why write comments?
 
 Although well written code tends to be self-documenting, it is often helpful to scribble in the margins, and it can be a mistake to believe that others will be able to look at your code and immediately see it the way you do. 
 
-尽管好的代码能够自我说明，但在空白处乱涂乱画通常也是有帮助的，如果相信其他人能够看到你的代码，并能一下就看到你的代码，那就大错特错了。
+尽管好的代码能够自我说明，但在空白处乱涂乱画通常也是有帮助的，如果相信其他人能够看到你的代码，并能一下就理解你的代码，那就大错特错了。
 
 Besides, for practical purposes, you yourself are a different person within a few days anyway; which of us hasn't gone back to fix or enhance a program after the passage of time and said, I know I wrote this, but what in blazes does it mean?
 
-此外，出于实际的目的，你自己在几天之内就会将之前写的代码遗忘。我们中的哪一个人在经过了一段时间后没有回过头去修复或加强一个项目，我知道我写了这个代码，但这到底是什么意思呢?
+此外，出于实用的目的，你自己在几天之内就会将之前写的代码遗忘。我们中的哪一个人在经过了一段时间后没有回过头去修复或加强一个项目，我知道我写了这个代码，但这到底是什么意思呢?
 
 Some experienced programmers will point out, quite correctly, that contradictory or outdated comments can be worse than none at all.
 
@@ -170,7 +170,7 @@ You will also find the load and require facilities useful.
 
 load works as if the file it refers to were copied and pasted in (something like the #include preprocessor directive in C). require is somewhat more sophisticated, causing code to be loaded at most once and only when needed.
 
-`load`工作的方式就像它所引用的文件被复制和粘贴到(类似于**C**中的预处理器指令)一样，需要更复杂一些，只需要在需要时才加载代码。
+`load`工作的方式就像它所引用的文件被复制和粘贴到(类似于**C**中的预处理器指令)一样，`require`更复杂一些，只需要在需要时才加载代码。
 
 **That's it...**
 
