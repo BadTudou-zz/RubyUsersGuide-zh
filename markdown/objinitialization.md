@@ -57,7 +57,7 @@ To do this, we would add a formal argument to the initialize method.
 
 For reasons we won't get into here, arguments you supply to new are actually delivered to initialize.
 
-出于我们不会深入到这里，你提供给新用户的参数实际上是被交付给`initalize`的。
+由于一些原因我们此处不作深入探讨，你提供给`new`方法的参数实际上被传递给了`initalize`方法。
 
 ```
 ruby> class Fruit
@@ -83,7 +83,7 @@ Above we see that once an argument is associated with the initialize method, it 
 
 If we want to be more considerate, we can use the argument if it is given, or fall back to default values otherwise.
 
-如果我们想要更加周到，我们可以使用参数，如果给定了参数则使用参数，或者返回默认值。
+如果我们想要更加周到，我们可以只在提供了参数时才使用它，否则就使用默认值。
 
 ```
 ruby> class Fruit
@@ -101,11 +101,11 @@ ruby> f6 = Fruit.new
 
 You can use default argument values for any method, not just initialize. 
 
-不仅仅是在`initialize`中，你可以给任何方法指定默认值。
+不仅仅是在`initialize`中，你可以给任何方法的参数指定默认值。
 
 The argument list must be arranged so that those with default values come last.
 
-必须对参数列表进行安排，以便那些有缺省值的是最后一个。
+必须对参数列表进行安排，以确保那些有默认值的出现在最后。
 
 Sometimes it is useful to provide several ways to initialize an object. 
 
