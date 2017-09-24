@@ -63,7 +63,7 @@ ruby> loop{bar=45; puts bar; break}; defined?(bar)
 
 Procedure objects that live in the same scope share whatever local variables also belong to that scope. Here, the local variable bar is shared by main and the procedure objects p1 and p2:
 
-在相同范围内的过程对象共享也属于该范围的任何本地变量。此处，本地变量`bar`被`main`以及过程对象`p1`、`p2`所共享。
+在相同范围内的过程对象共享也属于该范围的任何局部变量。此处，局部变量`bar`被`main`以及过程对象`p1`、`p2`所共享。
 
 ```
 ruby> bar=nil
@@ -86,7 +86,7 @@ Note that the "bar=nil" at the beginning cannot be omitted; it ensures that the 
 
 Otherwise p1 and p2 would each end up with its own local variable bar, and calling p2 would have resulted in an "undefined local variable or method" error. 
 
-否则，`p1`和`p2`将各自使用其本地变量`bar`，而调用p2将导致"**undefined local variable or method**"错误。
+否则，`p1`和`p2`将各自使用其局部变量`bar`，而调用p2将导致"**undefined local variable or method**"错误。
 
 We could have said bar=0 instead, but using nil is a courtesy to others who will read your code later. 
 
@@ -94,11 +94,11 @@ We could have said bar=0 instead, but using nil is a courtesy to others who will
 
 It indicates fairly clearly that you are only establishing scope, because the value being assigned is not intended to be meaningful.
 
-它很清楚地表明你只是在简历范围，因为被分配的值并不是有意义的。
+它很清楚地表明你只是在建立作用域，因为被分配的值并不是有意义的。
 
 A powerful feature of procedure objects follows from their ability to be passed as arguments: shared local variables remain valid even when they are passed out of the original scope.
 
-过程对象的一个强大功能是根据它们作为参数传递的能力：即使在最初的范围之外，共享的本地变量仍然有效。
+过程对象的一个强大功能来自它们可以作为参数被传递的能力：即使在最初的作用域之外，共享的局部变量仍然有效。
 
 ```
 ruby> def box
@@ -120,7 +120,7 @@ ruby> reader.call
 
 Ruby is particularly smart about scope. It is evident in our example that the contents variable is being shared between the reader and writer. 
 
-**Ruby**在作用域方面特别聪明，在我们的示例中很明显，变量`contents`是在**reader**和**writer**之间共享的。
+**Ruby**在作用域方面特别聪明。在我们的示例中很明显，变量`contents`是在**reader**和**writer**之间共享的。
 
 But we can also manufacture multiple reader-writer pairs using box as defined above; each pair shares a contents variable, and the pairs do not interfere with each other.
 
@@ -140,7 +140,7 @@ ruby> reader_2.call  # nothing is in this box yet
 ```
 This kind of programming could be considered a perverse little object-oriented framework. 
 
-这种编程可以被认为是一个不正常的面向对象的框架。
+这种编程可以被认为是一个不合理的面向对象的框架。
 
 The box method acts something like a class, with get and set serving as methods (except those aren't really the method names, which could vary with each box instance) and contents being the lone instance variable. 
 
