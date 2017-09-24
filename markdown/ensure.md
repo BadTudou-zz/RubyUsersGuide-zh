@@ -29,7 +29,7 @@ end
 
 In the above, if an exception occurred during the section of code where we were writing to the file, the file would be left open. And we don't want to resort to this kind of redundancy:
 
-在上面，如果一个异常发生在我们写入文件的代码段中，那么这个文件就会被一直打开。我们不想采用这种冗余的方式。
+在上面，如果一个异常发生在我们写入文件的代码段中，那么这个文件就会被一直打开。我们不想采用这种冗余的方式：
 
 ```
 file = open("/tmp/some_file", "w")
@@ -67,7 +67,7 @@ end
 
 It is possible to use ensure without rescue, or vice versa, but if they are used together in the same begin...end block, the rescue must precede the ensure.
 
-可以在没有`rescue`的情况下使用`ensure`，反之亦然，但是如果它们在同一`begin...end`块中一起使用，`rescue`必须在`ensure`之前进行。
+可以在没有`rescue`的情况下使用`ensure`，反之亦然，但是如果它们在同一`begin...end`块中一起使用，`rescue`必须出现在`ensure`之前。
 
 [上一章 异常处理：rescue](./rescue.md "Exception processing: rescue")
 [下一章 访问器](./accessors.md "Accessors")
