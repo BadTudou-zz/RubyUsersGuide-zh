@@ -5,7 +5,7 @@
 
 A global variable has a name beginning with $. 
 
-一个**全局变量**以`$`开头。
+**全局变量**的名字以`$`开头。
 
 It can be referred to from anywhere in a program. Before initialization, a global variable has the special value nil.
 
@@ -34,7 +34,7 @@ Overuse of globals can make isolating bugs difficult; it also tends to indicate 
 
 Whenever you do find it necessary to use a global variable, be sure to give it a descriptive name that is unlikely to be inadvertently used for something else later (calling it something like $foo as above is probably a bad idea).
 
-无论何时，当你发现有必要使用**全局变量**时，一定要给它一个描述性的名称，这个名称不太可能在以后的其他地方使用它(将其命名为`$foo`可能是一个坏主意)。
+无论何时，当你发现确实有必要使用**全局变量**时，一定要给它一个描述性的名称，这个名称不太可能在以后因为其他事情而无意中使用它(将其命名为`$foo`很可能是一个坏主意)。
 
 One nice feature of a global variable is that it can be traced; you can specify a procedure which is invoked whenever the value of the variable is changed.
 
@@ -54,7 +54,7 @@ When a global variable has been rigged to work as a trigger to invoke a procedur
 
 For instance, it might be useful for keeping a GUI display up to date.
 
-例如，当让保持GUI所显示的日期时，全局变量可能会很有用。
+例如，对于保持GUI展示最新内容，全局变量可能有用。
 
 There is a collection of special variables whose names consist of a dollar sign ($) followed by a single character. 
 
@@ -87,7 +87,7 @@ In the above, $_ and $~ have local scope.
 
 Their names suggest they should be global, but they are much more useful this way, and there are historical reasons for using these names.
 
-它们的名称表明它们应该是全局的，但是它们在这种方式中更有用，使用这些名字的历史原因也有很多。
+它们的名称表明它们应该是全局的，但是它们在这种方式中更有用，使用这些名字有一些历史原因。
 
 [上一章 变量](./variables.md "Variables")
 [下一章 实例变量](./instancevars.md "Instance variables")
