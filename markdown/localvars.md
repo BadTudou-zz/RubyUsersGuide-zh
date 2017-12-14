@@ -144,7 +144,7 @@ This kind of programming could be considered a perverse little object-oriented f
 
 The box method acts something like a class, with get and set serving as methods (except those aren't really the method names, which could vary with each box instance) and contents being the lone instance variable. 
 
-**box**方法的作用类似于一个类，**get**和**set**作为方法(除了那些不是真正的方法名，它可能会随着每个box实例的不同而不同)，而`contents`是唯一的实例变量。
+**box**方法的作用类似于一个类，**get**和**set**作为方法(但是它们并不是真正的方法名，它们可能会随着每个box实例的不同而不同)，而`contents`是唯一的实例变量。
 
 Of course, using ruby's legitimate class framework leads to much more readable code.
 
