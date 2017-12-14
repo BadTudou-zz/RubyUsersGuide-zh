@@ -19,3 +19,7 @@
 4.[Kun Liu](https://github.com/liukgg)
 
 **Kun Liu**纠正了 [《起步》](./getstarted.md "Getting started")、[《简单示例》](./examples.md "Simple examples")、[《字符串》](./strings.md "Strings")等众多章节中不优雅的中文翻译与错别字，并将之前不严谨的名词替换成了更严谨的专业术语，以及其他未能在此处一一列举出来的众多贡献。:clap:
+
+5.[genghisun](https://github.com/genghisun)
+
+**genghisun**对[《局部变量》](./localvars.md "Local variables")的翻译稍加润色。:clap:
