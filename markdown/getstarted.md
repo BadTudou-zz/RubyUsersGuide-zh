@@ -29,7 +29,7 @@ Now, let's play with ruby. You can place a ruby program directly on the command 
 现在，让我们来把玩一下**Ruby**。你可以在**命令行中**用`-e`选项来直接执行**Ruby**程序。
 
 ```
-ruby -e 'puts "hello world"
+ruby -e 'puts "hello world"'
 hello world
 ```
 
